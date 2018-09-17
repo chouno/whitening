@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* ===================================================================
+CSS information
+
+ file name  : print.css
+ style info : 印刷用
+=================================================================== */
+@font-face {
+  font-family: YuGothicM;
+  src: local("Yu Gothic Medium");
+}
+/*Animate */
+/* -----------------------------------------------------------
+	print
+----------------------------------------------------------- */
+.view_tab,
+.view_sp,
+.view_tab-sp {
+  display: none !important;
+}
