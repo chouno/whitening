@@ -7,24 +7,27 @@
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
-<title>高知のホワイトニング専門店</title>
-<meta name="keywords" content="ホワイトニング,セルフホワイトニング,高知,南国,短時間,安い,専門店,人気">
-<meta name="description" content="高知初！女性・男性共に白さ実感満足度98%で無痛の施術はわずか30分で低価格。セルフホワイトニング専門サロンは高級感ある完全個室。「歯が白いと見た目年齢マイナス5歳」を手に入れよう。">
+<title>高知県のセルフホワイトニング店舗ZEYO</title>
+<meta name="keywords" content="ホワイトニング,セルフホワイトニング,高知,南国,ZEYO,ゼヨ,スポーツクラブゼヨ,短時間,安い,人気">
+<meta name="description" content="高知のセルフホワイトニング！女性・男性共に白さ実感満足度98%で無痛の施術はわずか30分で低価格。南国市のスポーツクラブZEYO内で、簡単・素早く体感できる！「歯の白さ」で「見た目年齢マイナス5歳」を手に入れよう。">
 <meta name="viewport" content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-
 <link rel="index" href="https://zeyo-sports.com/">
-<!-- favicon -->
 <link rel="shortcut icon" href="<?php  echo get_template_directory_uri(); ?>/whitening/images/favicon.ico">
 
 <!-- Open graph tags -->
-<!-- <meta property="og:site_name" content="WHITENING CRYSTAL(ホワイトニングクリスタル)">
-<meta property="og:title" content="WHITENING CRYSTAL(ホワイトニングクリスタル) 名古屋丸の内のセルフホワイトニングサロン">
+<meta property="og:site_name" content="スポーツクラブZEYO・セルフホワイトニング">
+<meta property="og:title" content="スポーツクラブZEYO・セルフホワイトニング高知県南国市で出来るホワイトニング">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://whiteningcrystal.jp/">
-<meta property="og:description" content="名古屋丸の内駅徒歩30秒の好立地。女性・男性共に白さ実感満足度98%で無痛の施術はわずか30分で低価格。セルフホワイトニング専門サロン『ホワイトニングクリスタル』は芸能人も通う高級感ある完全個室。「歯が白いと見た目年齢マイナス5歳」を手に入れよう。2000円OFFのキャンペーン実施中。">
-<meta property="og:image" content="http://whiteningcrystal.jp/img/og_img.png"> -->
+<meta property="og:url" content="https://zeyo-sports.com/whitening/">
+<meta property="og:description" content="高知県南国市の国道沿いにあるスポーツクラブZEYO内でできる、お手軽カンタンなセルフホワイトニング。女性・男性共に白さ実感満足度98%で無痛の施術はわずか30分で低価格。「歯の白さ」で「見た目年齢マイナス5歳」を手に入れよう。初回利用は、通常料金から1500円OFFのキャンペーン実施中。">
+<meta property="og:image" content="http://whiteningcrystal.jp/img/og_img.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="高知県南国市の国道沿いにあるスポーツクラブZEYO内でできる、お手軽カンタンなセルフホワイトニング。女性・男性共に白さ実感満足度98%で無痛の施術はわずか30分で低価格。「歯の白さ」で「見た目年齢マイナス5歳」を手に入れよう。初回利用は、通常料金から1500円OFFのキャンペーン実施中。">
+<meta name="twitter:title" content="スポーツクラブZEYO・セルフホワイトニング高知県南国市で出来るホワイトニング">
+<meta name="twitter:image" content="https://the-minutes.com/wp/wp-content/uploads/twitter_ogp.png">
 
 <link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/default.css" rel="stylesheet" type="text/css" media="all">
 <link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/print.css" rel="stylesheet" type="text/css" media="print">
@@ -32,29 +35,14 @@
 <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display" rel="stylesheet">
 <link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/common.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-<link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/magnific-popup.css" rel="stylesheet" type="text/css" media="all">
 <link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/topstyle.css" rel="stylesheet" type="text/css" media="all">
-<link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/post.css" rel="stylesheet" type="text/css" media="all">
-<link href="<?php  echo get_template_directory_uri(); ?>/whitening/css/jquery.simplyscroll.css" rel="stylesheet" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
 <!-- *** javascript *** -->
 <script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/jquery-2.1.4.min.js"></script>
-<script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/analytics.js"></script>
 <script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/config.js"></script>
 <script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/common.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/top.js"></script>
-<script src="<?php  echo get_template_directory_uri(); ?>/whitening/js/jquery.simplyscroll.js"></script>
-<script type="text/javascript">
-(function($) {
-	$(function() {
-		$("#scroller").simplyScroll();
-	});
-})(jQuery);
-</script>
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyDt7h7VG0h7-rQFMHxaf1zbJ6WPWNO_vw8"></script>
 </head>
 
@@ -156,7 +144,7 @@
 											echo '<span class="cate">' . $tag->name . '</span>';
 										}
 									}
-								?>&emsp;<span style='font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;'><?php the_time( 'Y.m.d' ); ?></span><span class="story"><?php the_title(); ?></span>
+								?>&emsp;<span style='font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;'><?php the_time( 'Y.m.d' ); ?></span><span class="story"><?php echo wp_trim_words( get_the_title(), 30, '...' ); ?></span>
 							</a>
 						</li>
 					<?php endforeach; ?>

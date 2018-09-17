@@ -13,6 +13,19 @@ $(function(){
 		tabPosition = -0,
 		spPosition = -70;
 
+	// outerPageAnchorLink ---------------------------//
+	if(window.location.href.split('#')[1] == undefined || window.location.href.split('#')[1].indexOf('=') == -1) {
+		var $target = $('#'+window.location.href.split('#')[1]),
+			adjust = (abi.pc) ? pcPosition : (abi.tab) ? tabPosition : spPosition;
+
+		if($target.length) {
+			$w.load(function(){
+				var targetPosition = $target.offset().top;
+				$html.add($body).animate({scrollTop: String(targetPosition + adjust)}, 10);
+			});
+		}
+	}
+
 	$('a').not('.noscroll').click(function(){
 		var href = $(this).attr('href'),
 			case1 = href.charAt(0) == '#',
@@ -31,19 +44,6 @@ $(function(){
 			}
 		}
 	});
-
-	// outerPageAnchorLink ---------------------------//
-	if(window.location.href.split('#')[1] == undefined || window.location.href.split('#')[1].indexOf('=') == -1) {
-		var $target = $('#'+window.location.href.split('#')[1]),
-			adjust = (abi.pc) ? pcPosition : (abi.tab) ? tabPosition : spPosition;
-
-		if($target.length) {
-			$w.load(function(){
-				var targetPosition = $target.offset().top;
-				$html.add($body).animate({scrollTop: String(targetPosition + adjust)}, 10);
-			});
-		}
-	}
 
 	$('.btn_menu a').click(function(e){
 		e.preventDefault();

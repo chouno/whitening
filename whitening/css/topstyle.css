@@ -4398,6 +4398,10 @@ img.preloader{
   white-space: nowrap;
 }
 
+git remote add origin https://github.com/chouno/whitening.git
+
+git remote set-url origin https://github.com/chouno/whitening.git
+
 #key_visual .box_mainimg .catch_pc span{
   font-size: 60%;
 }
